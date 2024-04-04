@@ -1,2 +1,2 @@
 default: main.c
-	gcc main.c -lX11 -Wall -Wextra -Wpedantic -o grabcolor
+	gcc main.c -ggdb -lX11 -Wall -Wextra -Wpedantic -o grabcolor
